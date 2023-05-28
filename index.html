@@ -4,101 +4,112 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/navBar.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
     <title>Página Institucional Genérica</title>
 </head>
 <body>
+    <nav class="navBar">
+        <p class="myComponent--Title3">Sapphire Innovation</p>
+        <button class="enterButton showModal">Entrar para a próxima turma</button>
+    </nav>
     <header>
-        <p>Generic Course</p>
-        <button>Entrar para a próxima turma</button>
+        <h1 class="myComponent--Title2">Desenvolvendo <span class="emphasis
+            ">suas</span> próximas habilidades</h1>
+        <p class="myComponent--Text3 description space">Sapphire Innovation: Transformando mentes e impulsionando a inovação. Uma instituição de ensino comprometida em cultivar o potencial criativo e desenvolver habilidades para um mundo em constante evolução. Prepare-se para explorar novos horizontes e desafiar os limites do conhecimento. Descubra a excelência acadêmica e a paixão pela inovação na Sapphire Innovation.</p>
+        <a href="#sobreNos">Sobre nós</a>
     </header>
     <main>
-        <div>
-            <h1>Desenvolvendo <span>suas</span> próximas habilidades</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos autem fuga accusantium sunt ratione pariatur eius laborum exercitationem accusamus illum laudantium, similique dolor, suscipit iste! Mollitia iure temporibus nam eligendi!</p>
-            <span>Sobre nós</span>
-        </div>
-        <div>
-            <h2>Quem somos nós?</h2>
+        
+        <div id="sobreNos">
+            <h2 class="myComponent--Title2 aboutUs">Quem somos nós?</h2>
             <span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, aut, quos consequatur nemo error deserunt iste, fugit natus ipsum enim voluptatibus dolorem ea ab sint accusamus quas? Facilis, maiores in.</p>
+                <p class="description space aboutUsText">Na Sapphire Innovation, somos uma equipe dedicada de educadores e entusiastas da inovação. Combinando expertise acadêmica e visão de futuro, buscamos inspirar e capacitar nossos alunos a se tornarem agentes de mudança. Juntos, estamos moldando uma nova geração de líderes criativos e visionários, prontos para enfrentar os desafios do mundo moderno.</p>
             </span>            
         </div>
-        <section>
-            <div>
-                <h2>Dúvidas frequentes</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dolorem veritatis veniam fuga. Itaque error quae et magni maxime ab quibusdam enim, animi dicta. Illo odio eum ex quo at?</p>
-                <span>Entrar para próxima turma</span>
+        <section class="faq-section container">
+            <div class="item-1">
+                <h2 class="myComponent--Title2">Dúvidas frequentes</h2>
+                <p class="description space">Estamos aqui para responder a todas as suas dúvidas e fornecer informações detalhadas sobre o conteúdo, o processo de inscrição e os benefícios do curso. Nossa equipe dedicada está pronta para ajudar você em cada etapa do caminho. Não hesite em nos contatar caso precise de mais informações.</p>
+                <button class="default showModal">Entrar para próxima turma</button>
             </div>
-            <div>
-                <span>
-                    <h3>Quanto custa o curso?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+            <div class="faq-content">
+                <span class="item-2">
+                    <h3 class="myComponent--Title3">Quanto custa o curso?</h3>
+                    <p class="description space">O valor do curso varia de acordo com a duração, nível de especialização e recursos adicionais disponibilizados. Oferecemos opções flexíveis de pagamento, incluindo parcelamento e descontos especiais em determinados períodos. Entre em contato conosco para obter informações atualizadas sobre os preços e condições.
+
+                    </p>
                 </span>
-                <span>
-                    <h3>Quais matérias vou pagar?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+                <span class="item-2">
+                    <h3 class="myComponent--Title3">Quais matérias vou pagar?</h3>
+                    <p class="description space">O curso abrange uma ampla gama de matérias essenciais para o seu desenvolvimento na área. Você terá a oportunidade de aprender sobre fundamentos de programação, design de interfaces, bancos de dados, segurança cibernética, marketing digital, análise de dados e muito mais. Nossos especialistas cuidadosamente selecionaram o conteúdo do curso para fornecer a você um conhecimento abrangente e relevante.</p>
                 </span>
-                <span>
-                    <h3>Tenho direito à cancelamento?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+                <span class="item-2">
+                    <h3 class="myComponent--Title3">Tenho direito à cancelamento?</h3>
+                    <p class="description space">Sim, oferecemos uma política de cancelamento flexível para garantir a satisfação dos nossos alunos. Você pode solicitar o cancelamento do curso dentro do prazo determinado, sujeito às condições especificadas em nosso contrato. Para mais informações sobre o processo de cancelamento e possíveis taxas envolvidas, entre em contato com nossa equipe de suporte.</p>
                 </span>
-                <span>
-                    <h3>O acesso do curso é vitalício?</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, assumenda. Nulla vero accusamus officia laborum quis soluta deleniti culpa obcaecati dignissimos eos! Cupiditate quaerat minima magnam beatae, facilis modi rem!</p>
+                <span class="item-2">
+                    <h3 class="myComponent--Title3">O acesso do curso é vitalício?</h3>
+                    <p class="description space">Sim, o acesso ao conteúdo do curso é vitalício. Após se matricular, você terá acesso contínuo ao material do curso, incluindo vídeos, materiais de leitura, exercícios práticos e fóruns de discussão. Você poderá revisar o conteúdo sempre que desejar e se manter atualizado com as novidades e atualizações do curso ao longo do tempo. Estamos comprometidos em fornecer um ambiente de aprendizagem contínuo para todos os nossos alunos.</p>
                 </span>
             </div>
         </section>
-        <section>
-            <div>
-                <ul>
-                    <li>
-                        <div>
-                            <span>
-                                <h3>Júlia Lima</h3>
-                                <p>Aluna na turma 2019</p>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis nisi distinctio eaque, dignissimos deleniti nesciunt molestiae incidunt ex id corporis saepe dolore et culpa, consequuntur sequi. Aspernatur, similique sit.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <span>
-                                <h3>Carlos Silva</h3>
-                                <p>Aluno na turma 2020</p>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolores vitae adipisci repudiandae ipsa cumque sint nemo qui mollitia consequatur quo numquam, animi deserunt placeat. Minima veritatis deleniti velit.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <span>
-                                <h3>Camila Souza</h3>
-                                <p>Aluna na turma 2019</p>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, a veritatis, nostrum culpa accusantium libero deserunt quasi sit quaerat doloribus commodi dolor accusamus deleniti aperiam eius! Neque doloribus esse alias.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <span>
-                                <h3>Matheus Erick</h3>
-                                <p>Aluno na turma 2018</p>
-                            </span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laboriosam aliquam cum iste, nihil, culpa quibusdam architecto necessitatibus modi deserunt dolorem nemo. Voluptate incidunt, culpa tempora veritatis veniam consequuntur. Dolorum.</p>
-                        </div>
-                    </li>
-                </ul>
+        <section class="mainBox">
+            <div class="box">
+
+                    <span class="col1">
+                        <h3 class="myComponent--Text1">Júlia Lima</h3>
+                        <p class="description centerText">Aluna na turma 2019</p>
+                    </span>
+                    <p class="col2 coment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis nisi distinctio eaque, dignissimos deleniti nesciunt molestiae incidunt ex id corporis saepe dolore et culpa, consequuntur sequi. Aspernatur, similique sit.</p>
+
+        
+
+                    <span class="col1">
+                        <h3 class="myComponent--Text1">Carlos Silva</h3>
+                        <p class="description centerText">Aluno na turma 2020</p>
+                    </span>
+                    <p class="col2 coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolores vitae adipisci repudiandae ipsa cumque sint nemo qui mollitia consequatur quo numquam, animi deserunt placeat. Minima veritatis deleniti velit.</p>
+
+        
+
+                    <span class="col1">
+                        <h3 class="myComponent--Text1">Camila Souza</h3>
+                        <p class="description centerText">Aluna na turma 2019</p>
+                    </span>
+                    <p class="col2  coment">Lorem ipsum dolor sit ame   t consectetur, adipisicing elit. Facere, a veritatis, nostrum culpa accusantium libero deserunt quasi sit quaerat doloribus commodi dolor accusamus deleniti aperiam eius! Neque doloribus esse alias.</p>
+
+        
+
+                    <span class="col1">
+                        <h3 class="myComponent--Text1">Matheus Erick</h3>
+                        <p class="description centerText">Aluno na turma 2018</p>
+                    </span>
+                    <p class="col2 coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laboriosam aliquam cum iste, nihil, culpa quibusdam architecto necessitatibus modi deserunt dolorem nemo. Voluptate incidunt, culpa tempora veritatis veniam consequuntur. Dolorum.</p>
             </div>
-            <div>
-                <h2>O que nossos alunos comentam?</h2>
+            <div class="col2 generalComent">
+                <h2 class="myComponent--Text1">O que nossos alunos comentam?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, dolorum sint. Deleniti, hic repellendus incidunt distinctio voluptatem eius, consequuntur eligendi ipsa laborum animi rem ipsum aspernatur dolorem consequatur nobis sed!</p>
             </div>
         </section>
     </main>
     <footer>
-        <h3>Generic Course</h3>
+        <h3 class="myComponent--Text2">Generic Course</h3>
     </footer>
-    <script src="./src/scripts/script.js"></script>
+    <dialog class="modalContainer">
+        <div class="modal">
+            <h3>Cadastro</h3>
+            <button class="closeModal">X</button>
+            <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos debitis cupiditate atque veritatis doloremque! Ipsum unde fugiat porro quod, ipsa vitae quidem repellendus fugit accusantium amet quos deleniti dolorum eligendi!</p>
+            <input type="email" placeholder="Digitar email">
+        <button id="submit">Entrar na lista para próxima turma</button>
+        </div>
+    </dialog>
+    <script src="src/scripts/script.js"></script>
 </body>
 </html>

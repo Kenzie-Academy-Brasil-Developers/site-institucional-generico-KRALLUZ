@@ -1,0 +1,67 @@
+dialog{
+    background-color: var(--grey1);
+    color: var(--grey5);
+    width: 304px;
+    height: 297px;
+    border: solid 2px;
+    border-color: var(--brand-1);
+    font-size:13px;
+}
+
+input{
+    border-style: none;
+    border-radius: none;
+    background-color: var(--grey0);
+    
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+input::placeholder{
+    background-color: var(--grey0);
+    border-style: none;
+    border-radius: none;
+}
+
+input:hover{
+    background-color: var(--grey0);
+    border-style: none;
+    border-radius: none;
+}
+
+input:focus{
+    background-color: var(--grey0);
+    border-style: none;
+    border-radius: none;
+}
+
+#submit{
+    border: none;
+    background-color: var(--brand-1);
+    text-decoration: none;
+    color: var(--grey5);
+    padding: 2px 48px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.modal>h3{
+    text-align: left;
+}
+
+.modal>p{
+    margin-top: 35px;
+}
+
+
+.closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: var(--grey5);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
