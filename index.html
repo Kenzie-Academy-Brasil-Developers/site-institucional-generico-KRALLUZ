@@ -16,95 +16,84 @@
 <body>
     <nav class="navBar">
         <p class="myComponent--Title3">Sapphire Innovation</p>
-        <button class="enterButton showModal">Entrar para a próxima turma</button>
+        <button class="navBar__Button navBar--showModal">Entrar para a próxima turma</button>
     </nav>
-    <header>
-        <h1 class="myComponent--Title2">Desenvolvendo <span class="emphasis
-            ">suas</span> próximas habilidades</h1>
-        <p class="myComponent--Text3 description space">Sapphire Innovation: Transformando mentes e impulsionando a inovação. Uma instituição de ensino comprometida em cultivar o potencial criativo e desenvolver habilidades para um mundo em constante evolução. Prepare-se para explorar novos horizontes e desafiar os limites do conhecimento. Descubra a excelência acadêmica e a paixão pela inovação na Sapphire Innovation.</p>
-        <a href="#sobreNos">Sobre nós</a>
+    <header class="header">
+        <h1 class="header__title myComponent--Title2">Desenvolvendo <span class="header--emphasis">suas</span> próximas habilidades</h1>
+        <p class="header__text myComponent--Text3 description space">Sapphire Innovation: Transformando mentes e impulsionando a inovação. Uma instituição de ensino comprometida em cultivar o potencial criativo e desenvolver habilidades para um mundo em constante evolução. Prepare-se para explorar novos horizontes e desafiar os limites do conhecimento. Descubra a excelência acadêmica e a paixão pela inovação na Sapphire Innovation.</p>
+        <a href="#sobreNos" class="header__link">Sobre nós</a>
     </header>
     <main>
-        
-        <div id="sobreNos">
-            <h2 class="myComponent--Title2 aboutUs">Quem somos nós?</h2>
+        <div class="sobreNos">
+            <h2 class="sobreNos__title myComponent--Title2 ">Quem somos nós?</h2>
             <span>
-                <p class="description space aboutUsText">Na Sapphire Innovation, somos uma equipe dedicada de educadores e entusiastas da inovação. Combinando expertise acadêmica e visão de futuro, buscamos inspirar e capacitar nossos alunos a se tornarem agentes de mudança. Juntos, estamos moldando uma nova geração de líderes criativos e visionários, prontos para enfrentar os desafios do mundo moderno.</p>
-            </span>            
+                <p class="sobreNos__description space sobreNos__text">Na Sapphire Innovation, somos uma equipe dedicada de educadores e entusiastas da inovação. Combinando expertise acadêmica e visão de futuro, buscamos inspirar e capacitar nossos alunos a se tornarem agentes de mudança. Juntos, estamos moldando uma nova geração de líderes criativos e visionários, prontos para enfrentar os desafios do mundo moderno.</p>
+            </span>
         </div>
         <section class="faq-section container">
-            <div class="item-1">
-                <h2 class="myComponent--Title2">Dúvidas frequentes</h2>
-                <p class="description space">Estamos aqui para responder a todas as suas dúvidas e fornecer informações detalhadas sobre o conteúdo, o processo de inscrição e os benefícios do curso. Nossa equipe dedicada está pronta para ajudar você em cada etapa do caminho. Não hesite em nos contatar caso precise de mais informações.</p>
-                <button class="default showModal">Entrar para próxima turma</button>
+            <div class="faq-section__item-1 item-1">
+                <h2 class="faq-section__title myComponent--Title2">Dúvidas frequentes</h2>
+                <p class="faq-section__description generalComent__description">Estamos aqui para responder a todas as suas dúvidas e fornecer informações detalhadas sobre o conteúdo, o processo de inscrição e os benefícios do curso. Nossa equipe dedicada está pronta para ajudar você em cada etapa do caminho. Não hesite em nos contatar caso precise de mais informações.</p>
+                <button class="faq-section__button default showModal">Entrar para próxima turma</button>
             </div>
-            <div class="faq-content">
-                <span class="item-2">
-                    <h3 class="myComponent--Title3">Quanto custa o curso?</h3>
-                    <p class="description space">O valor do curso varia de acordo com a duração, nível de especialização e recursos adicionais disponibilizados. Oferecemos opções flexíveis de pagamento, incluindo parcelamento e descontos especiais em determinados períodos. Entre em contato conosco para obter informações atualizadas sobre os preços e condições.
-
-                    </p>
+            <div class="faq-section__faq-content faq-content">
+                <span class="faq-section__item-2 item-2">
+                    <h3 class="faq-section__subtitle myComponent--Title3">Quanto custa o curso?</h3>
+                    <p class="faq-section__description generalComent__description">O valor do curso varia de acordo com a duração, nível de especialização e recursos adicionais disponibilizados. Oferecemos opções flexíveis de pagamento, incluindo parcelamento e descontos especiais em determinados períodos. Entre em contato conosco para obter informações atualizadas sobre os preços e condições.
                 </span>
                 <span class="item-2">
-                    <h3 class="myComponent--Title3">Quais matérias vou pagar?</h3>
-                    <p class="description space">O curso abrange uma ampla gama de matérias essenciais para o seu desenvolvimento na área. Você terá a oportunidade de aprender sobre fundamentos de programação, design de interfaces, bancos de dados, segurança cibernética, marketing digital, análise de dados e muito mais. Nossos especialistas cuidadosamente selecionaram o conteúdo do curso para fornecer a você um conhecimento abrangente e relevante.</p>
+                    <h3 class="faq-section__subtitle myComponent--Title3">Quais matérias vou pagar?</h3>
+                    <p class="generalComent__description">O curso abrange uma ampla gama de matérias essenciais para o seu desenvolvimento na área. Você terá a oportunidade de aprender sobre fundamentos de programação, design de interfaces, bancos de dados, segurança cibernética, marketing digital, análise de dados e muito mais. Nossos especialistas cuidadosamente selecionaram o conteúdo do curso para fornecer a você um conhecimento abrangente e relevante.</p>
                 </span>
                 <span class="item-2">
-                    <h3 class="myComponent--Title3">Tenho direito à cancelamento?</h3>
-                    <p class="description space">Sim, oferecemos uma política de cancelamento flexível para garantir a satisfação dos nossos alunos. Você pode solicitar o cancelamento do curso dentro do prazo determinado, sujeito às condições especificadas em nosso contrato. Para mais informações sobre o processo de cancelamento e possíveis taxas envolvidas, entre em contato com nossa equipe de suporte.</p>
+                    <h3 class="faq-section__subtitle myComponent--Title3">Tenho direito à cancelamento?</h3>
+                    <p class="generalComent__description">Sim, oferecemos uma política de cancelamento flexível para garantir a satisfação dos nossos alunos. Você pode solicitar o cancelamento do curso dentro do prazo determinado, sujeito às condições especificadas em nosso contrato. Para mais informações sobre o processo de cancelamento e possíveis taxas envolvidas, entre em contato com nossa equipe de suporte.</p>
                 </span>
                 <span class="item-2">
-                    <h3 class="myComponent--Title3">O acesso do curso é vitalício?</h3>
-                    <p class="description space">Sim, o acesso ao conteúdo do curso é vitalício. Após se matricular, você terá acesso contínuo ao material do curso, incluindo vídeos, materiais de leitura, exercícios práticos e fóruns de discussão. Você poderá revisar o conteúdo sempre que desejar e se manter atualizado com as novidades e atualizações do curso ao longo do tempo. Estamos comprometidos em fornecer um ambiente de aprendizagem contínuo para todos os nossos alunos.</p>
+                    <h3 class="faq-section__subtitle myComponent--Title3">O acesso do curso é vitalício?</h3>
+                    <p class="generalComent__description">Sim, o acesso ao conteúdo do curso é vitalício. Após se matricular, você terá acesso contínuo ao material do curso, incluindo vídeos, materiais de leitura, exercícios práticos e fóruns de discussão. Você poderá revisar o conteúdo sempre que desejar e se manter atualizado com as novidades e atualizações do curso ao longo do tempo. Estamos comprometidos em fornecer um ambiente de aprendizagem contínuo para todos os nossos alunos.</p>
                 </span>
             </div>
         </section>
         <section class="mainBox">
             <div class="box">
-
                     <span class="col1">
                         <h3 class="myComponent--Text1">Júlia Lima</h3>
-                        <p class="description centerText">Aluna na turma 2019</p>
+                        <p class="generalComent__name centerText">Aluna na turma 2019</p>
                     </span>
-                    <p class="col2 coment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis nisi distinctio eaque, dignissimos deleniti nesciunt molestiae incidunt ex id corporis saepe dolore et culpa, consequuntur sequi. Aspernatur, similique sit.</p>
-
-        
-
+                    <p class="col2 generalComent__description">Estou extremamente satisfeito com o curso da Sapphire Innovation. Ele não apenas atendeu, mas superou todas as minhas expectativas. Ao longo do curso, adquiri conhecimentos e habilidades que já estou aplicando com sucesso no mercado de trabalho. A metodologia de ensino é excelente, os professores são altamente capacitados e o suporte da equipe é excepcional. Sem dúvidas, foi uma escolha acertada! 💪🚀</p>
                     <span class="col1">
                         <h3 class="myComponent--Text1">Carlos Silva</h3>
-                        <p class="description centerText">Aluno na turma 2020</p>
+                        <p class="generalComent__name centerText">Aluno na turma 2020</p>
                     </span>
-                    <p class="col2 coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolores vitae adipisci repudiandae ipsa cumque sint nemo qui mollitia consequatur quo numquam, animi deserunt placeat. Minima veritatis deleniti velit.</p>
-
-        
-
+                    <p class="col2 generalComent__description">Estou encantado com a experiência que tive no curso da Sapphire Innovation. Desde o primeiro dia de aula, percebi que estava no lugar certo para aprimorar minhas habilidades e expandir meus horizontes profissionais. Os materiais didáticos são completos e atualizados, os exercícios práticos são desafiadores e estimulantes, e os professores são verdadeiros mentores, sempre dispostos a compartilhar seus conhecimentos e orientar os alunos. Além disso, a interação com os colegas de turma criou um ambiente colaborativo e enriquecedor. 😊🚀</p>
                     <span class="col1">
                         <h3 class="myComponent--Text1">Camila Souza</h3>
-                        <p class="description centerText">Aluna na turma 2019</p>
+                        <p class="generalComent__name centerText">Aluna na turma 2019</p>
                     </span>
-                    <p class="col2  coment">Lorem ipsum dolor sit ame   t consectetur, adipisicing elit. Facere, a veritatis, nostrum culpa accusantium libero deserunt quasi sit quaerat doloribus commodi dolor accusamus deleniti aperiam eius! Neque doloribus esse alias.</p>
+                    <p class="col2  generalComent__description">Recomendo enfaticamente o curso da Sapphire Innovation. A qualidade do ensino é simplesmente excepcional. Os conteúdos são abordados de forma clara e didática, proporcionando um aprendizado sólido e prático. Além disso, a equipe de suporte está sempre disponível para auxiliar e sanar qualquer dúvida que surja ao longo do curso. O investimento vale cada centavo, pois os resultados são recompensadores. Tenho plena confiança em indicar o curso para qualquer pessoa que deseje se destacar profissionalmente.💯🔥</p>
                     <span class="col1">
                         <h3 class="myComponent--Text1">Matheus Erick</h3>
-                        <p class="description centerText">Aluno na turma 2018</p>
+                        <p class="generalComent__name centerText">Aluno na turma 2018</p>
                     </span>
-                    <p class="col2 coment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, laboriosam aliquam cum iste, nihil, culpa quibusdam architecto necessitatibus modi deserunt dolorem nemo. Voluptate incidunt, culpa tempora veritatis veniam consequuntur. Dolorum.</p>
+                    <p class="col2 generalComent__description">Participar do curso da Sapphire Innovation foi um marco transformador em minha carreira. Durante o programa, tive a oportunidade de desenvolver habilidades essenciais e ampliar minha rede de contatos profissionais. Os professores são verdadeiros especialistas em suas áreas e compartilham conhecimentos de forma envolvente e inspiradora. O suporte oferecido pela equipe foi sempre eficiente e atencioso. Recomendo fortemente o curso a todos que desejam impulsionar seu crescimento profissional e alcançar resultados excepcionais. 👍✨</p>
             </div>
             <div class="col2 generalComent">
-                <h2 class="myComponent--Text1">O que nossos alunos comentam?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, dolorum sint. Deleniti, hic repellendus incidunt distinctio voluptatem eius, consequuntur eligendi ipsa laborum animi rem ipsum aspernatur dolorem consequatur nobis sed!</p>
+                <h2 class="generalComent__title myComponent--Text1">O que nossos alunos comentam?</h2>
+                <p class="">Os comentários dos nossos alunos refletem o impacto positivo do curso em suas vidas profissionais. Confira o que eles têm a dizer!</p>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class=" footer">
         <h3 class="myComponent--Text2">Generic Course</h3>
     </footer>
     <dialog class="modalContainer">
         <div class="modal">
-            <h3>Cadastro</h3>
-            <button class="closeModal">X</button>
-            <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos debitis cupiditate atque veritatis doloremque! Ipsum unde fugiat porro quod, ipsa vitae quidem repellendus fugit accusantium amet quos deleniti dolorum eligendi!</p>
-            <input type="email" placeholder="Digitar email">
-        <button id="submit">Entrar na lista para próxima turma</button>
+            <h3 class="modal__title">Cadastro</h3>
+            <button class="modal__closeButton">X</button>
+            <p class="modal__description" id="textSubscription">Inscreva-se agora para garantir sua vaga na próxima turma! Aprenda habilidades inovadoras e transforme seu futuro profissional. Não perca esta oportunidade de crescimento e desenvolvimento.</p>
+            <input class="modal__input" type="email" placeholder="Digitar email">
+        <button class="modal__submitButton">Entrar na lista para próxima turma</button>
         </div>
     </dialog>
     <script src="src/scripts/script.js"></script>

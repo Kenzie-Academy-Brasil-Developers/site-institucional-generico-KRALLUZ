@@ -1,4 +1,4 @@
-header{
+.header {
     background-color: var(--grey1);
     color: var(--grey5);
     height: 500px;
@@ -6,15 +6,19 @@ header{
     padding: 100px;
 }
 
-span.emphasis{
+.header--emphasis {
     color: var(--brand-1);
 }
 
-h1 {
+.header__title {
     margin-top: 100px;
 }
 
-a{
+.header__text{
+    text-indent: 30px;
+}
+
+.header__link {
     background-color: var(--brand-1);
     padding: 20px;
     text-decoration: none;
@@ -22,7 +26,6 @@ a{
     padding: 19px 32px;
 }
 
-a:hover{
+.header__link:hover {
     background-color: var(--brand-2);
 }
-

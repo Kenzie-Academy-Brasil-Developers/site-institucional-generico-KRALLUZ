@@ -1,13 +1,9 @@
-nav{
+.navBar{
     background-color:var(--grey1);
     color: white;
     display: flex;
-    justify-content: space-between;
     height: 50px;
-    width: 100;
-    border-bottom: solid 3px white;
-    border-color:var(--brand-1);
-
+    border-bottom: solid 3px var(--brand-1);
     position: fixed;
     top: 0;
     width: 100%;
@@ -18,7 +14,7 @@ nav{
     z-index: 999;
 }
 
-button.enterButton{
+.navBar__Button{
     background-color: var(--grey1);
     color: var(--grey5);
     border: solid 1px var(--grey5);
@@ -26,7 +22,8 @@ button.enterButton{
     padding: 20px 32px;
 }
 
-button:hover{
+.navBar__button:hover{
     background-color: var(--brand-2);
 }
+
 

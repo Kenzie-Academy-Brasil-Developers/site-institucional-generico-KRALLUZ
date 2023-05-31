@@ -17,6 +17,7 @@
     --grey3:#ADB5BD;
     --grey4:#CED4DA;
     --grey5:#F8F9FA;
+
 }
 
 .myComponent--Title1{
@@ -101,3 +102,15 @@ button.default{
     color: var(--grey5);
     padding: 19px 32px;
 } 
+
+::-webkit-scrollbar{
+    background-color: var(--grey1);
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--grey0);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--grey2);
+}

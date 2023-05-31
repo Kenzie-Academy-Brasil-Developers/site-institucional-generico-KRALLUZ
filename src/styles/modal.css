@@ -1,61 +1,77 @@
-dialog{
+.modalContainer{
     background-color: var(--grey1);
     color: var(--grey5);
-    width: 304px;
-    height: 297px;
-    border: solid 2px;
+    width: 504px;
+    height: 397px;
+    border: solid 3px;
     border-color: var(--brand-1);
     font-size:13px;
 }
 
-input{
+#textSubscription {
+    margin: 50px 25px;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+.modal__input{
     border-style: none;
     border-radius: none;
     background-color: var(--grey0);
-    
-    width: 300px;
-    height: 40px;
-    margin-top: 30px;
+    display: block;    
+    margin: 40px auto;
+    width: 400px;
+    height: 50px;
+    color: var(--grey5);
+    text-indent: 30px;
+    font-size: 20px;
 }
 
-input::placeholder{
+.modal__input::placeholder{
+    background-color: var(--grey0);
+}
+
+.modal__input:hover{
     background-color: var(--grey0);
     border-style: none;
     border-radius: none;
 }
 
-input:hover{
+.modal__input:focus{
     background-color: var(--grey0);
     border-style: none;
     border-radius: none;
 }
 
-input:focus{
-    background-color: var(--grey0);
-    border-style: none;
-    border-radius: none;
-}
-
-#submit{
+.modal__submitButton{
     border: none;
     background-color: var(--brand-1);
     text-decoration: none;
     color: var(--grey5);
-    padding: 2px 48px;
+    display: block;    
+    margin: 40px auto;
+    width: 405px;
     height: 50px;
-    margin-top: 50px;
+    font-size: 15px;
 }
 
-.modal>h3{
+.modal__submitButton:hover{
+    background-color: var(--brand-2);
+}
+
+.modal__title{
     text-align: left;
+    margin: 10px;
+    font-size: 20px;
 }
 
-.modal>p{
+.modal__description{
     margin-top: 35px;
+    margin-bottom: 100px;
 }
 
 
-.closeModal {
+.modal__closeButton {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -64,4 +80,6 @@ input:focus{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    background-color: var(--grey2);
+    border-radius: 3px;
 }

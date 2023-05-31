@@ -1,5 +1,5 @@
 function showModalButton(){
-    const button = document.querySelector(".showModal");
+    const button = document.querySelector(".navBar--showModal");
     const modalContainer = document.querySelector(".modalContainer");
 
     button.addEventListener("click", () =>{
@@ -10,7 +10,7 @@ function showModalButton(){
 }
 
 function closeModalButton(){
-    const button = document.querySelector(".closeModal");
+    const button = document.querySelector(".modal__closeButton");
     const modalContainer = document.querySelector(".modalContainer");
 
     button.addEventListener("click", () =>{
